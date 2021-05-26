@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnimalTable</class>
+ <widget class="QWidget" name="AnimalTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1314</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Популяции</string>
+  </property>
+  <widget class="QTableView" name="animalTableView">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>11</y>
+     <width>811</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="activityTableView">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>10</y>
+     <width>141</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="repTableView">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>10</y>
+     <width>141</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="humanTableView">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>10</y>
+     <width>141</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>480</y>
+     <width>461</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="helpButton">
+   <property name="geometry">
+    <rect>
+     <x>1230</x>
+     <y>500</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Справка</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
